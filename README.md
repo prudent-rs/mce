@@ -22,5 +22,5 @@ Please give thumbs up (and contribute, if you can) to
 
 ## Side fruit
 
-- https://github.com/dtolnay/proc-macro2/pull/536 Span::file and Span::local_file suggest to use Rust 1.88 when using stable
-
+- [dtolnay/proc-macro2#536](https://github.com/dtolnay/proc-macro2/pull/536) Span::file and
+  Span::local_file suggest to use Rust 1.88 when using stable
