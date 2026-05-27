@@ -27,3 +27,11 @@ echo "CARGO TEST (debug) IN negative_tests_runner/"
 cd negative_tests_runner
 cargo test
 cd - >/dev/null
+
+echo
+echo "CLIPPY"
+cargo clippy
+
+echo
+echo "DOC"
+cargo doc --no-deps --quiet

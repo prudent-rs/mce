@@ -44,11 +44,11 @@ Instead, `mce` extracts the code section(s) with no side effects. It's stateless
 For now we don't have a separate/detailed documentation. See examples in
 [`positive_tests/src/bin/`](https://github.com/prudent-rs/mce/blob/main/positive_tests/src/bin).
 <!-- \\\--- We use a FULL GitHub link. Otherwise
-1. https://crates.io/crates/mce would auto-generate link as
-   https://github.com/prudent-rs/mce/blob/HEAD/positive_tests/src/bin/, which auto-converts to the
+1. https://crates.io would auto-generate link as
+   https://github.com/REPO/PROJECT/blob/HEAD/path-here/, which auto-converts to a
    commit link!
-2. https://docs.rs/mce/latest/mce/ would generate the link as
-   https://docs.rs/mce/latest/mce/positive_tests/src/bin/, which doesn't exist, because as per
+2. https://docs.rs would generate the link as
+   https://docs.rs/CRATE/latest/CRATE/path-here/, which doesn't exist, because as per
    https://doc.rust-lang.org/nightly/cargo/reference/manifest.html#the-exclude-and-include-fields
    > "Regardless of whether exclude or include..."
    > "Any sub-packages will be skipped (any subdirectory that contains a Cargo.toml file)."
@@ -56,8 +56,8 @@ For now we don't have a separate/detailed documentation. See examples in
 
 ## Configuration in TOML only
 
-Configuration is only in TOML, deserialized with [`toml-rs/toml`](https://github.com/toml-rs). No
-other formats (JSON, [`eternal-io/keon`](https://github.com/eternal-io/keon),
+Configuration is only in TOML, deserialized with [`toml-rs/toml`](https://github.com/toml-rs/toml).
+No other formats (JSON, [`eternal-io/keon`](https://github.com/eternal-io/keon),
 [`ron-rs/ron`](https://github.com/ron-rs/ron)... ). Why? Because TOML is
 
 - simple and readable
