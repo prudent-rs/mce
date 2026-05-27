@@ -24,7 +24,10 @@ unknown_lints = { level = "forbid"}
 
 [dependencies]
 # EXACT VERSION with = prefix
-mce-proc = {version="= 0.0.3", path="../mce-proc"}
+mce-proc = {version="= 0.0.3"}
+# For local development:
+#
+#mce-proc = {version="= 0.0.3", path="../mce-proc"}
 
 [package.metadata.docs.rs]
 rustdoc-args = ["--cfg", "docsrs"]
