@@ -29,7 +29,7 @@ be beneficial, for example when re-using
 - specific code sections in both `README.md` and negative/positive doctests, or
 - specific code sections with specific cargo features or configuration.
 
-There are several crates and methods that generate `README.md` based on other file(s). But
+There **are** several crates and methods that generate `README.md` based on other file(s). But
 
 - a consumer crate has to use `build.rs`, which is a burden. Or
 - you need CI setup, GIT pre-commit hook or manual steps
