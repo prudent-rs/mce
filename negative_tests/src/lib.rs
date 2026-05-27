@@ -8,5 +8,5 @@ compile_error!(
 
 #[cfg(test)]
 compile_error!(
-    "Don't test. Instead, build (in debug, that is, with `cargo build` or `cargo build --debug`."
+    "Don't test. Instead, build (in debug) with `cargo build`; AND build it as a part of running `cargo test` under `negative_tests`."
 );

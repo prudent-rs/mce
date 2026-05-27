@@ -1,6 +1,12 @@
 # Changelog
 
-## unpublished (only more important decision points listed)
+## 2026-May-27
+
+## Version 0.0.3
+
+Initial published version. Macros `all, all_by_file, mce_tag, mce_tag_by_file, nth, nth_by_file`.
+
+## Unpublished (only more important decision points listed)
 
 ### May 3, 2026
 
