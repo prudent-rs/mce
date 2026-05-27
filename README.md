@@ -42,7 +42,7 @@ Instead, `mce` extracts the code section(s) with no side effects. It's stateless
 ## Examples
 
 For now we don't have a separate/detailed documentation. See examples in
-[`positive_tests/src/bin/`](https://github.com/prudent-rs/mce/blob/main/positive_tests/src/bin).
+[`positive_tests/src/bin/`](https://github.com/prudent-rs/mce/tree/main/positive_tests/src/bin).
 <!-- \\\--- We use a FULL GitHub link. Otherwise
 1. https://crates.io would auto-generate link as
    https://github.com/REPO/PROJECT/blob/HEAD/path-here/, which auto-converts to a
