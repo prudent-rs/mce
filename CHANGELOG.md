@@ -1,5 +1,15 @@
 # Changelog
 
+This includes changes from crate `mce-proc`.
+
+## 2026-May-28 (2026-May-29 in UTC)
+
+## Version 0.0.4
+
+- not using `proc-macro2-diagnostic` for error reporting for now (in the meantime using `panic!`).
+- internal: `selected_by_config_content_and_span now(...)` now takes a closure for validation stage.
+- updated `mce-proc` and `mce-lib` to `0.0.4`: renamed `.spanned(span)` --> `.span_err(span)`
+
 ## 2026-May-27
 
 ## Version 0.0.3
