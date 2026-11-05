@@ -2,6 +2,12 @@
 
 This includes changes from crate `mce-proc`.
 
+## Unpublished 2026-11-??
+
+## Version 0.0.7
+
+- `all_by_file` macro now validates that the file path is relative
+
 ## 2026-June-24
 
 ## Version 0.0.6
@@ -28,7 +34,7 @@ This includes changes from crate `mce-proc`.
 
 Initial published version. Macros `all, all_by_file, mce_tag, mce_tag_by_file, nth, nth_by_file`.
 
-## Unpublished (only more important decision points listed)
+## Old unpublished (only more important decision points listed)
 
 ### May 3, 2026
 
